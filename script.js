@@ -1,5 +1,4 @@
-const key2 = "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";
-const apiUrl = "https://api.openai.com/v1/chat/completions";
+const key2 = "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";const apiUrl = "https://api.openai.com/v1/chat/completions";
 const j = async (message) => {
   try {
     const response = await fetch(apiUrl, {
@@ -28,4 +27,4 @@ const j = async (message) => {
     console.error("Error:", error.message);
     return "An error occurred while processing your request.";
   }
-};
+}//dwVxk569E4VvgppLOKWpT3BlbkFJ6OAdQwoAealsD2LKQgXM
