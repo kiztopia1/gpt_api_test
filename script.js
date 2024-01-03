@@ -1,4 +1,4 @@
-const key2 = "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";
+const key2 = "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";
 const apiUrl = "https://api.openai.com/v1/chat/completions";
 const j = async (message) => {
   try {
